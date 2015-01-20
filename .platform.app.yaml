@@ -4,6 +4,8 @@ toolstack: "php:symfony"
 web:
     index: [ "index.html" ]
     whitelist:
+      - "\\.html?$"
+
       # CSS and Javascript\.
       - "\\.css$"
       - "\\.js$"
