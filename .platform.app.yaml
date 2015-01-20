@@ -2,7 +2,7 @@ name: php
 toolstack: "php:symfony"
 
 web:
-    index: [ "index\.html" ]
+    index: [ "index.html" ]
     whitelist:
       # CSS and Javascript\.
       - "\\.css$"
