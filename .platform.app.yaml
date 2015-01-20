@@ -3,6 +3,6 @@ toolstack: "php:symfony"
 
 web:
     index: [ "index.html" ]
-    document_root: "/"
+    document_root: "/www"
 
 disk: 2048
