@@ -3,6 +3,7 @@ toolstack: "php:symfony"
 
 web:
     index: [ "index.html", "index.htm" ]
+    passthru: "/test.php"
     whitelist:
       - "\\.html?$"
 
