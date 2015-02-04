@@ -2,7 +2,9 @@ name: php
 toolstack: "php:symfony"
 
 web:
-    index: [ "index.html", "index.htm" ]
+    index_files:
+      - "index.html"
+      - "index.htm"
     passthru: "/test.php"
     whitelist:
       - "\\.html?$"
